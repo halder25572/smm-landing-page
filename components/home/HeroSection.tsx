@@ -20,7 +20,7 @@ export function HeroSection() {
           </Badge>
 
           <h1 className="mt-5 text-4xl font-semibold leading-[1.15] text-slate-900 sm:text-5xl">
-            Best SMM Panel in Bangladesh — fast, safe, and built for growth on
+            <span className="text-brand-500 font-bold">Best SMM Panel</span> <br /> in Bangladesh — fast, safe, and built for growth on
             social media.
           </h1>
 

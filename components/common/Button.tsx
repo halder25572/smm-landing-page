@@ -26,9 +26,9 @@ type ButtonProps = ButtonAsButton | ButtonAsLink;
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
-    "bg-brand-600 text-white hover:bg-brand-700 shadow-sm shadow-brand-600/20",
+    "bg-linear-to-r from-[#FF9243] via-[#DD6017] to-[#983200] text-white shadow-sm shadow-[#983200]/25 hover:brightness-105",
   outline:
-    "border border-slate-200 text-slate-700 hover:border-brand-600 hover:text-brand-600 bg-white",
+    "bg-linear-to-r from-[#FF9243] via-[#DD6017] to-[#983200] text-white shadow-sm shadow-[#983200]/25 hover:brightness-105",
   ghost: "text-slate-700 hover:text-brand-600",
 };
 
@@ -39,7 +39,7 @@ const sizeStyles: Record<ButtonSize, string> = {
 };
 
 const base =
-  "inline-flex items-center justify-center rounded-full font-medium transition-colors duration-200 whitespace-nowrap";
+  "inline-flex items-center justify-center rounded-full font-medium transition-all duration-200 whitespace-nowrap";
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ variant = "primary", size = "md", className, children, ...props }, ref) => {
