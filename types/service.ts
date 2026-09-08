@@ -1,10 +1,7 @@
-import { LucideIcon } from "lucide-react";
-
 export interface PlatformTab {
   id: string;
   label: string;
-  icon: LucideIcon;
-  iconColor: string;
+  iconImage: string;
 }
 
 export interface ServiceFeature {

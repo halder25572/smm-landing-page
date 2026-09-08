@@ -1,19 +1,18 @@
-import {
-  Send,
-  MessageCircle,
-  Music2,
-  Ghost,
-  Globe,
-} from "lucide-react";
 import { PlatformTab, FeaturedService } from "@/types/service";
 
 export const PLATFORM_TABS: PlatformTab[] = [
-  { id: "telegram", label: "Telegram", icon: Send, iconColor: "#26A5E4" },
-  { id: "discord", label: "Discord", icon: MessageCircle, iconColor: "#5865F2" },
-  { id: "spotify", label: "Spotify", icon: Music2, iconColor: "#1DB954" },
-  { id: "soundcloud", label: "SoundCloud", icon: Music2, iconColor: "#FF5500" },
-  { id: "snapchat", label: "Snapchat", icon: Ghost, iconColor: "#FFFC00" },
-  { id: "website", label: "Website Traffic", icon: Globe, iconColor: "#F97316" },
+  { id: "facebook", label: "Facebook", iconImage: "/images/social/facebook.png" },
+  { id: "instagram", label: "Instagram", iconImage: "/images/social/instagram.png" },
+  { id: "twitter", label: "X (Twitter)", iconImage: "/images/social/twitter.png" },
+  { id: "youtube", label: "YouTube", iconImage: "/images/social/youtube.png" },
+  { id: "tiktok", label: "TikTok", iconImage: "/images/social/tiktok.png" },
+  { id: "linkedin", label: "LinkedIn", iconImage: "/images/social/linkedin.png" },
+  { id: "telegram", label: "Telegram", iconImage: "/images/social/telegram.png" },
+  { id: "discord", label: "Discord", iconImage: "/images/social/discord.png" },
+  { id: "spotify", label: "Spotify", iconImage: "/images/social/spotify.png" },
+  { id: "soundcloud", label: "SoundCloud", iconImage: "/images/social/soundcloud.png" },
+  { id: "snapchat", label: "Snapchat", iconImage: "/images/social/snapchat.png" },
+  { id: "website", label: "Website Traffic", iconImage: "/images/social/website.png" },
 ];
 
 export const FEATURED_SERVICE: FeaturedService = {

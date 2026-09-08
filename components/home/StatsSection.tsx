@@ -13,13 +13,13 @@ export function StatsSection() {
               key={stat.id}
               className="flex flex-col items-center gap-3 px-4 py-8 text-center"
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl text-brand-600">
+              <span className="flex h-25 w-25 items-center justify-center rounded-xl text-brand-600">
                 <Image
                   src={stat.icon}
                   alt=""
-                  width={20}
-                  height={20}
-                  className="h-50 w-50 object-contain"
+                  width={100}
+                  height={100}
+                  className="h-25 w-25 object-contain"
                 />
               </span>
               <span className="text-2xl font-semibold text-black">
