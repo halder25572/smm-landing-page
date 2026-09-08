@@ -2,7 +2,7 @@ import { LucideIcon } from "lucide-react";
 
 export interface StatItem {
   id: string;
-  icon: LucideIcon;
+  icon: string;
   value: number;
   suffix?: string;
   label: string;

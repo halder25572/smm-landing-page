@@ -30,7 +30,7 @@ const STEPS = [
 
 export function ProcessSection() {
   return (
-    <section className="bg-gradient-to-b from-white via-[#FFF6ED] to-white py-20">
+    <section className="bg-linear-to-b from-white via-[#FFF6ED] to-white py-20">
       <Container>
         <SectionTitle
           eyebrow="Working Process"

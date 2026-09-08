@@ -1,28 +1,27 @@
-import { Package, Layers, Users, Trophy } from "lucide-react";
 import { StatItem } from "@/types/common";
 
 export const STATS: StatItem[] = [
   {
     id: "orders",
-    icon: Package,
+    icon: "/images/sett.png",
     value: 321879,
     label: "Orders Processed",
   },
   {
     id: "services",
-    icon: Layers,
+    icon: "/images/9348490 3.png",
     value: 6245,
     label: "Available Services",
   },
   {
     id: "users",
-    icon: Users,
+    icon: "/images/users.png",
     value: 8552,
     label: "Registered User",
   },
   {
     id: "rank",
-    icon: Trophy,
+    icon: "/images/9348490 1.png",
     value: 1,
     suffix: "st",
     label: "Regional Rank",
