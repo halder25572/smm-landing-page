@@ -4,7 +4,7 @@ A modern and fully responsive landing page developed based on the provided Figma
 
 ## 🚀 Live Demo
 
-[Live Website](Yhttps://smm-landing-page-ten.vercel.app)
+[Live Website](https://smm-landing-page-ten.vercel.app)
 
 ## 📂 GitHub Repository
 
@@ -32,4 +32,8 @@ A modern and fully responsive landing page developed based on the provided Figma
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone https://github.com/halder25572/smm-landing-page.git
+cd smm-landing-page
+npm install
+npm run dev
+```
