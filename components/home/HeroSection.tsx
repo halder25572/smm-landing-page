@@ -7,9 +7,9 @@ import { Badge } from "@/components/common/Badge";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-linear-to-br from-[#FFF6ED] via-[#FFEFE0] to-white pb-16 pt-4">
-      <Container className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
-        <div>
+    <section className="relative overflow-hidden pb-20 pt-10 lg:pb-24 lg:pt-16">
+      <Container className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1.05fr] lg:gap-8">
+        <div className="max-w-xl">
           <Badge>
             <span className="flex gap-0.5 text-brand-500">
               {Array.from({ length: 5 }).map((_, i) => (
@@ -19,12 +19,12 @@ export function HeroSection() {
             Excellent 4.8 out of 5
           </Badge>
 
-          <h1 className="mt-5 text-4xl font-semibold leading-[1.15] text-slate-900 sm:text-5xl">
-            <span className="text-brand-500 font-bold">Best SMM Panel</span> <br /> in Bangladesh — fast, safe, and built for growth on
+          <h1 className="mt-5 text-4xl font-semibold leading-[1.12] text-slate-900 sm:text-[40px] lg:text-[42px]">
+            <span className="text-brand-500 font-bold">Best SMM Panel</span> <br /> in Bangladesh — <span className="text-brand-500 font-bold">fast, safe</span> & built for growth on
             social media.
           </h1>
 
-          <p className="mt-5 max-w-lg text-[15px] leading-relaxed text-slate-500">
+          <p className="mt-5 max-w-lg text-[13px] leading-[1.65] text-slate-600 sm:text-[14px]">
             TrendOrder is Bangladesh&apos;s most reliable and affordable SMM panel for
             real social media growth. We build this platform for Bangladeshi
             businesses, creators, and agencies. You get fast delivery, safe
@@ -48,10 +48,10 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="relative mx-auto aspect-square w-full max-w-md">
+        <div className="relative mx-auto aspect-square w-full max-w-158.75">
           <div className="absolute inset-6 rounded-full bg-brand-500/90" />
           <Image
-            src="/images/hero/hero-person.png"
+            src="/images/newhero.png"
             alt="TrendOrder team member holding a tablet"
             fill
             className="relative object-contain"

@@ -1,20 +1,20 @@
 export const NAV_LINKS = [
   { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/blog", label: "Blog" },
-  { href: "/about", label: "About Us" },
-  { href: "/contact", label: "Contact Us" },
-  { href: "/api", label: "API" },
+  { href: "/#", label: "Services" },
+  { href: "/#", label: "Blog" },
+  { href: "/#", label: "About Us" },
+  { href: "/#", label: "Contact Us" },
+  { href: "/#", label: "API" },
 ];
 
 export const FOOTER_QUICK_LINKS = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About Us" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact Us" },
-  { href: "/terms", label: "Terms of Service" },
-  { href: "/privacy", label: "Privacy Policy" },
-  { href: "/refund", label: "Refund Policy" },
+  { href: "/#", label: "About Us" },
+  { href: "/#", label: "Blog" },
+  { href: "/#", label: "Contact Us" },
+  { href: "/#", label: "Terms of Service" },
+  { href: "/#", label: "Privacy Policy" },
+  { href: "/#", label: "Refund Policy" },
 ];
 
 export const FOOTER_SERVICE_LINKS = [

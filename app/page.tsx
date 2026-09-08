@@ -13,9 +13,11 @@ import { CTASection } from "@/components/home/CTASection";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <main>
+      <div className="home-hero-shell">
+        <Navbar />
         <HeroSection />
+      </div>
+      <main>
         <StatsSection />
         <ServicesSection />
         <ProcessSection />

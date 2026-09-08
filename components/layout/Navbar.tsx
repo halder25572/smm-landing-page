@@ -11,18 +11,21 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="relative z-20 py-5">
+    <header className="relative z-20 py-4 lg:py-5">
       <Container className="flex items-center justify-between">
-        <Link href="/" className="text-lg font-semibold text-slate-900">
+        <Link
+          href="/"
+          className="rounded-lg bg-white px-7 py-2.5 text-[11px] font-bold uppercase tracking-wide text-brand-600 shadow-sm"
+        >
           TrendOrder
         </Link>
 
-        <nav className="hidden items-center gap-8 lg:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-slate-600 transition-colors hover:text-brand-600"
+              className="text-[16px] font-medium text-slate-700 transition-colors hover:text-brand-600"
             >
               {link.label}
             </Link>

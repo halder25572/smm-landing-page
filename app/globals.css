@@ -19,3 +19,10 @@ body {
   color: #0f172a;
   background: #ffffff;
 }
+
+.home-hero-shell {
+  background-color: #fff2e7;
+  background-image: url("/images/hero/hero-background.jpg");
+  background-position: center;
+  background-size: cover;
+}

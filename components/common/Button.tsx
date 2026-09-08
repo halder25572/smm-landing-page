@@ -28,7 +28,7 @@ const variantStyles: Record<ButtonVariant, string> = {
   primary:
     "bg-linear-to-r from-[#FF9243] via-[#DD6017] to-[#983200] text-white shadow-sm shadow-[#983200]/25 hover:brightness-105",
   outline:
-    "bg-linear-to-r from-[#FF9243] via-[#DD6017] to-[#983200] text-white shadow-sm shadow-[#983200]/25 hover:brightness-105",
+    "border border-[#DD6017] bg-white/80 text-[#983200] hover:bg-[#FFF1E6] hover:text-[#983200]",
   ghost: "text-slate-700 hover:text-brand-600",
 };
 
